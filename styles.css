@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+}
+
+.profile-image{
+    border-radius: 50px;
+    height: 35%;
+    width: 35%;
+}
+
+.card-head-main{
+    background-color: rgb(87, 70, 234);
+    border-radius: 20px !important;
+    border-color: rgb(87, 70, 234);
+    
+}
+
+.card-object{
+    background-color: rgb(29,32,75);
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+}
+
+.muted-font{
+    color: rgb(170,165,255);
+}
+
+.active-font{
+    color:white
+}

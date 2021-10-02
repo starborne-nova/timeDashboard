@@ -6,6 +6,7 @@ body{
     border-radius: 50px;
     height: 35%;
     width: 35%;
+    margin: 20px 20px;
 }
 
 .card-head-main{
@@ -15,16 +16,147 @@ body{
     
 }
 
+.card-title-main{
+    margin: 0px 20px 102px 20px !important;
+    color:white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.card-sub-main{
+    margin: 20px 20px 5px 20px !important;
+    color: rgb(170,165,255);
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+.card-body-main{
+    margin: 20px;
+}
+
+.card-object-profile{
+    min-height: auto;
+    background-color: rgb(29,32,75);
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 20px;
+}
+
 .card-object{
     background-color: rgb(29,32,75);
     border-radius: 25px;
     border-color: rgb(29,32,75);
 }
 
+.card-module-body{
+    margin-top: 50px;
+    background-color: rgb(29,32,75);
+    border-radius: 20px;
+    border-color: rgb(29,32,75);
+}
+
+.card-module-body:hover{
+    background-color: rgb(52,57,123);
+    border-color: rgb(52,57,123);
+}
+
+.card-text-title{
+    color:white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400 !important;
+    font-size: 18px;
+    margin: 20px 10px 10px 10px; 
+}
+
+.card-text-sub{
+    margin: 10px 10px 20px 10px !important;
+    color: rgb(170,165,255);
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+.card-text-hours{
+    margin: 10px 10px 10px 10px !important;
+    color:white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+#work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+#play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+#study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+#exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 0%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+#social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+#self-care{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    border-radius: 25px;
+    border-color: rgb(29,32,75);
+    margin-bottom: 25px;
+}
+
+
 .muted-font{
     color: rgb(170,165,255);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.muted-font:hover{
+    color:white; 
 }
 
 .active-font{
-    color:white
+    color:white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
 }

@@ -10,7 +10,9 @@
 
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -34,20 +36,16 @@
   <div class="container" style="margin-top: 14%;">
     <div class="row">
       <div class="col-sm-3">
-        <div class="card card-object">
+        <div class="card card-object-profile">
           <div class="card-header card-head-main">
             <img src="images/image-jeremy.png" class="img-thumbnail profile-image" alt="jeremey">
-            <p class="card-text"><small class="muted-font">Report For</small></p>
-            <h1 class="card-title active-font">Jeremey Robson</h1>
+            <p class="card-text card-sub-main">Report For</p>
+            <h1 class="card-title card-title-main">Jeremey Robson</h1>
           </div>
-          <div class="card-body">
+          <div class="card-body card-body-main">
             <p class="card-text muted-font">Daily</p>
             <p class="card-text active-font">Weekly</p>
             <p class="card-text muted-font">Monthly</p>
-
-
-
-
           </div>
         </div>
       </div>
@@ -55,128 +53,94 @@
         <div class="row">
 
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-work.svg" height="50px" width="50px" class="img-fluid float-end" alt="work icon">
-              </div>
-              <div class="card-body card-object">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="work">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Work</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">32 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 36 hrs</small></p>
+                <h1 class="card-title card-text-hours">32 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 36 hrs</p>
               </div>
             </div>
           </div>
+
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-play.svg" height="50px" width="50px" class="img-fluid float-end" alt="work icon">
-              </div>
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="play">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Play</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">10 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 8 hrs</small></p>
+                <h1 class="card-title card-text-hours">10 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 8 hrs</p>
               </div>
             </div>
           </div>
+
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-study.svg" height="50px" width="50px" class="img-fluid float-end" alt="work icon">
-              </div>
-              <div class="card-body card-object">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="study">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Study</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">4 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 7 hrs</small></p>
+                <h1 class="card-title card-text-hours">4 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 7 hrs</p>
               </div>
             </div>
           </div>
-
         </div>
+
         <div class="row">
+
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-exercise.svg" height="50px" width="50px" class="img-fluid float-end"
-                  alt="work icon">
-              </div>
-              <div class="card-body card-object">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="exercise">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Exercise</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">4 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 5 hrs</small></p>
+                <h1 class="card-title card-text-hours">4 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 5 hrs</p>
               </div>
             </div>
           </div>
+
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-social.svg" height="50px" width="50px" class="img-fluid float-end"
-                  alt="work icon">
-              </div>
-              <div class="card-body card-object">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="social">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Social</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">5 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 10 hrs</small></p>
+                <h1 class="card-title card-text-hours">5 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 10 hrs</p>
               </div>
             </div>
           </div>
+
           <div class="col-sm-4">
-            <div class="card card-object">
-              <div class="card-header">
-                <img src="images/icon-self-care.svg" height="50px" width="50px" class="img-fluid float-end"
-                  alt="work icon">
-              </div>
-              <div class="card-body card-object">
-                <div class="d-flex justify-content-between">
+            <div class="card" id="self-care">
+              <div class="card-body card-module-body">
+                <div class="d-flex justify-content-between card-text-title">
                   <h5 class="card-text active-font">Self Care</h5>
                   <div class="flex-shrink-0">
                     <img src="images/icon-ellipsis.svg">
-
                   </div>
-
                 </div>
-
-                <h1 class="card-title active-font">2 hrs</h1>
-                <p class="card-text"><small class="muted-font">Last Week - 2 hrs</small></p>
+                <h1 class="card-title card-text-hours">2 hrs</h1>
+                <p class="card-text card-text-sub">Last Week - 2 hrs</p>
               </div>
             </div>
           </div>
